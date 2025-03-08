@@ -52,14 +52,17 @@ cp .env.example .env
 Update the `.env` file with your Supabase and Ably credentials:
 
 ```
+# App Configuration
 PORT=3000
 NODE_ENV=development
 API_PREFIX=api
 
-SUPABASE_URL= https://wbqqsdrynbdwcrnaefsi.supabase.co
-SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndicXFzZHJ5bmJkd2NybmFlZnNpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEzNjY2NzcsImV4cCI6MjA1Njk0MjY3N30.o2qwlmjsyBEHSDL0jpKtdzHxluQv0CtOY0KVMg9DXD8
+# Supabase Configuration
+SUPABASE_URL=https://your-supabase-url.supabase.co
+SUPABASE_KEY=your-supabase-key
 
-ABLY_API_KEY=_-sXrQ.1vxb6w:iwEfgN7eqhUAMjygRq-2Ip3oMtIR-vJpzsSsXDvXBGo
+# Ably Configuration
+ABLY_API_KEY=your-ably-api-key
 ```
 
 ### 4. Database Setup
